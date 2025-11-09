@@ -1,3 +1,4 @@
+
 class Karyawan {
   constructor(nama, gaji) {
     this.nama = nama;
@@ -32,3 +33,4 @@ const totalBonus = bonusBudi + bonusSita;
 console.log(` ${budi.nama} = Karyawan Tetap   Rp ${bonusBudi.toLocaleString('id-ID')}`);
 console.log(` ${sita.nama} = Karyawan Kontrak Rp ${bonusSita.toLocaleString('id-ID')}`);
 console.log(`Total Semua Bonus = Rp ${totalBonus.toLocaleString('id-ID')}`);
+
